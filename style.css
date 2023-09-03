@@ -121,3 +121,15 @@ a:hover, a:focus {
   background-position: center center;
   background-size: 100%;
 }
+
+@media (min-width: 520px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 519px) {
+  .desktop {
+    display: none;
+  }
+}
