@@ -9,7 +9,7 @@ a {
   color: #000000;
 }
 
-a:hover, a:focus {
+a, a:hover, a:focus {
   outline: none;
 }
 
@@ -35,7 +35,7 @@ a:hover, a:focus {
   margin: 0.44rem 0 0 0;
 }
 
-.about {
+.content {
   padding: 2rem 0 0 0;
 }
 
@@ -46,6 +46,29 @@ a:hover, a:focus {
 .contact a {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.footer {
+  padding: 4rem 0 0 0;
+}
+
+.footer a {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #B0B0B0;
+}
+
+.footer a:not(:first-child) {
+  margin-left: 1.8rem;
+}
+
+.footer a:active {
+  color: #333333;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 .highlight, .arrow, .underline, .circle {
