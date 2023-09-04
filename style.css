@@ -5,6 +5,12 @@ body {
   padding: 0;
 }
 
+@media (max-width: 355px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 a {
   color: #000000;
 }
@@ -29,18 +35,27 @@ a, a:hover, a:focus {
   margin: 0 0 0 0;
 }
 
+.header .phonetic {
+  font-size: 0.87rem;
+}
+
 .header h2 {
-  font-size: 0.67rem;
+  font-size: 1rem;
   font-weight: bold;
   margin: 0.44rem 0 0 0;
 }
 
 .content {
-  padding: 2rem 0 0 0;
+  padding: 4rem 0 0 0;
+}
+
+.content .section {
+  padding: 1rem 0 0 0;
 }
 
 .contact {
-  padding: 2rem 0 0 0;
+  padding: 6rem 0 0 0;
+  text-align: center;
 }
 
 .contact a {
@@ -49,7 +64,7 @@ a, a:hover, a:focus {
 }
 
 .footer {
-  padding: 4rem 0 0 0;
+  padding: 6rem 0 0 0;
 }
 
 .footer a {
@@ -133,6 +148,10 @@ a, a:hover, a:focus {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
+}
+
+.centered {
+  margin: auto;
 }
 
 .broken, .breakable {
