@@ -1,4 +1,5 @@
 html {
+  font-size: clamp(1.3rem, 1.9vw, 1.7rem);
   font-family: sans-serif;
 
   color: #141414;
@@ -21,28 +22,27 @@ a {
 }
 
 .container .section {
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
 }
 
 .header {
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 0.2rem;
 }
 
 .header h1 {
-  font-size: 2.2em;
+  font-size: 2em;
   margin: 0;
 }
 
 .header h6 {
-  font-size: 0.32em;
+  font-size: 0.25em;
   font-weight: normal;
   margin: 0;
 }
 
 .content {
   font-size: 1.5rem;
-  letter-spacing: 0.05rem;
 }
 
 .content p {
